@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Example Plugin",
+  "description": "This is an example description! Tell everyone what your plugin is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/valoeghese/shuttle-example-plugin"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.modid.ExamplePlugin"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "shuttle": ">=0.2.0-alpha",
+    "minecraft": "1.15.x"
+  }
+}
